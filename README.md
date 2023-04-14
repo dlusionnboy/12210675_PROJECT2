@@ -1,7 +1,10 @@
-NAMA KELOMPOK :  
+NAMA KELOMPOK :      
 
-12210649 BELLY MULYADI/
-12210621 ILHAM NAFFI/
-12210675 MUHAMMAD NUR/
-12210770 SYARIF MUHAMMAD IHSAN RISMAWAN
+12210649 BELLY MULYADI
+                     <br>
+                     12210621 ILHAM NAFFI
+                     <br>
+                     12210675 MUHAMMAD NUR
+                     <br>
+                     12210770 SYARIF MUHAMMAD IHSAN RISMAWAN
 

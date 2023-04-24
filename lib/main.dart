@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:project2/providers/dashboard_provider.dart';
+import 'package:project2/providers/peta_providers.dart';
 import 'package:project2/views/login_view.dart';
 import 'package:provider/provider.dart';
 
@@ -9,6 +10,7 @@ void main(List<String> args) {
         ChangeNotifierProvider(create: (bc) => DashboardProvider()),
         ChangeNotifierProvider(create: (bc) => BertaPanelProvier()),
         ChangeNotifierProvider(create: (bc) => BeritaLoadDataProvider()),
+        ChangeNotifierProvider(create: (bc) => PetaProvider())
       ],
       builder: (context, Widget) {
         return MaterialApp(home: LoginView());

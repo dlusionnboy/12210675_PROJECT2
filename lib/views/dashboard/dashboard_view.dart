@@ -3,6 +3,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:project2/providers/dashboard_provider.dart';
 import 'package:project2/views/dashboard/berita_panel.dart';
 import 'package:project2/views/dashboard/pengaturan_panel.dart';
+import 'package:project2/views/peta_view.dart';
 import 'package:provider/provider.dart';
 
 class DashboardView extends StatelessWidget {
@@ -58,6 +59,18 @@ class dashboardPanel extends StatelessWidget {
                         'assets/ux.png',
                         width: 60,
                       )),
+                      InkWell(
+                        onTap: () {
+                          Navigator.push(context,
+                              MaterialPageRoute(builder: (bc) => PetaView()));
+                        },
+                        child: tombolMenu(
+                          image: Image.asset(
+                            'assets/map.png',
+                            width: 60,
+                          ),
+                        ),
+                      ),
                       tombolMenu(
                           image: Image.asset(
                         'assets/online-test.png',
